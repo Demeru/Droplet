@@ -5,12 +5,15 @@
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xxo57"]
 texture = ExtResource("1_fveoy")
 texture_region_size = Vector2i(32, 32)
-0:0/next_alternative_id = 2
+0:0/next_alternative_id = 3
 0:0/0 = 0
 0:0/0/texture_origin = Vector2i(0, -8)
 0:0/1 = 1
 0:0/1/texture_origin = Vector2i(0, -8)
-0:0/1/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, 0, 8, 15.8125, 15.8125, 16, 0)
+0:0/1/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -16, 0, -16.375, 6.4375, 5.275, -5.3625)
+0:0/2 = 2
+0:0/2/texture_origin = Vector2i(0, -8)
+0:0/2/physics_layer_0/polygon_0/points = PackedVector2Array(0, -8, -5.975, -5.0125, 15.75, 6.4375, 16, 0)
 1:0/0 = 0
 1:0/0/texture_origin = Vector2i(0, -8)
 2:0/0 = 0

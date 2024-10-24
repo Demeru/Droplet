@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://dj173qd5deyym"]
+
+[ext_resource type="Script" path="res://Script/droplets_bar.gd" id="1_xngca"]
+[ext_resource type="Texture2D" uid="uid://colm3ml6jokkv" path="res://Art/emptyDroplet.png" id="2_lunxl"]
+
+[node name="DropletsBar" type="HBoxContainer"]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 63.0
+offset_bottom = 16.0
+theme_override_constants/separation = 5
+script = ExtResource("1_xngca")
+
+[node name="1" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_lunxl")
+stretch_mode = 2
+
+[node name="2" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_lunxl")
+stretch_mode = 2
+
+[node name="3" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_lunxl")
+stretch_mode = 2
+
+[node name="4" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_lunxl")
+stretch_mode = 2
+
+[node name="5" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_lunxl")
+stretch_mode = 2
